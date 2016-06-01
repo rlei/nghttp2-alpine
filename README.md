@@ -1,6 +1,6 @@
 # nghttp2-alpine
 
-Minimal nghttp2 docker image with ALPN support - only 10MB.
+Minimal nghttp2 docker image with ALPN support - only 10MB in size.
 
 Based on the fantastic tiny little Alpine Linux.
 
@@ -8,7 +8,7 @@ Based on the fantastic tiny little Alpine Linux.
 
 Just
 
-    $ docker run --rm -t rlei/nghttp2-alpine <nghttp | nghttpd | nghttpx>
+    $ docker run --rm -t rickl/nghttp2-alpine <nghttp | nghttpd | nghttpx>
 
 ## Caveats
 
